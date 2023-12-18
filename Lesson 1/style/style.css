@@ -1,0 +1,46 @@
+h3{
+    color: blue;
+    /* Цвет текста */
+    font-size: 10px;
+    /* Размер текста */
+}
+
+p{
+    color: pink;
+}
+
+.green_color{
+    color: green;
+}
+
+#red_color{
+    color: red;
+}
+
+#blue_color{
+    color: blue;
+}
+
+#orange_color{
+    color: orange;
+}
+
+.span1{
+    color: aqua;
+    font-size: 20px;
+}
+
+.img1{
+    width: 200px;
+    /* ширина */
+    height: 150px;
+    /* высота */
+}
+
+.img2{
+    width: 400px;
+}
+
+.img3{
+    width: 50px;
+}
