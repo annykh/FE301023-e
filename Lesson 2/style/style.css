@@ -1,0 +1,97 @@
+/* Все теги HTML */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Вложенные селекторы */
+.section_block p{
+    color: red;
+}
+
+/* .section1, .section2{ */
+    /* Фоновый цвет */
+    /* background-color: lightcoral; */
+/* } */
+
+.section_block div{
+    background-color: lightgrey;
+}
+
+.main_block{
+    /* Граница/рамка */
+    border: 5px solid black;
+    /* толщина */
+    /* border-width: 5px; */
+    /* стиль */
+    /* border-style: solid; */
+    /* цвет */
+    /* border-color: black; */ 
+
+}
+
+.block1{
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    /* border: 5px solid blue; */
+    /* Правая */
+    border-right: 4px dashed blue;
+    /* Левая */
+    border-left: 4px dashed blue;
+    /* Верхняя */
+    border-top: 4px solid blue;
+    /* Нижняя */
+    border-bottom: 4px solid blue;
+    /* Радиус скругления уголков */
+    /* border-radius: 5% 0 80px 110px; */
+    /* border-radius: 50%; */
+}
+
+.test_p{
+    /* Цвет текста */
+    color: blue;
+    /* Размер текста */
+    font-size: 20px;
+    /* Отступ между строк */
+    line-height: 40px;
+    /* Насыщенность текста */
+    font-weight: bold;
+    /* Начертание текста */
+    font-style: italic;
+    /* Отступ первой строки */
+    text-indent: 40px;
+    /* Выравнивание текста */
+    text-align: justify;
+    /* left, right, center, justify */
+}
+
+.margin_block{
+    border: 5px solid black;
+    background-color: lightgray;
+}
+
+.margin_block p{
+    /* margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    margin: 50px 20px 0 80px;
+}
+
+.padding_block{
+    margin-top: 40px;
+    border: 5px solid red;
+    background-color: lightpink;
+    padding: 40px 20px 50px 0;
+    /* padding-left: ;
+    padding-right: ;
+    padding-top: ;
+    padding-bottom: ; */
+}
+
+.padding_block p {
+    border: 2px solid brown;
+    padding: 20px;
+}
