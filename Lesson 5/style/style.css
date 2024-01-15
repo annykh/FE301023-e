@@ -1,0 +1,71 @@
+
+
+/* p{
+    margin: 15px 10px;
+    display: inline;
+}
+
+.p1{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.span1{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+span{
+    display: block;
+}
+
+a{
+    display: block;
+}
+
+.block1{
+    width: 400px;
+    height: 400px;
+    border: 5px solid blue;
+    background-color: lightblue;
+    display: none;
+} */
+
+/* div{
+    width: 300px;
+    height: 300px;
+    border: 5px solid blue;
+    background-color: lightblue;
+    display: inline-block;
+    vertical-align: bottom;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container div{
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    border: 5px solid grey;
+}
+
+.container{
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    /* row, column */
+    /* justify-content: space-evenly; */
+    /* flex-start, flex-end, center 
+    space-between, space-around, space-evenly */
+    /* align-items: center; */
+    /* stretch, flex-start, flex-end, center */  
+    flex-wrap: wrap;
+    /* nowrap, wrap, wrap-reverse */
+}
+
