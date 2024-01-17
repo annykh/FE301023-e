@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+p, h1, h2{
+    margin: 15px 10px;
+}
+
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+a{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+main{
+    position: relative;
+    top: 70px;
+}
