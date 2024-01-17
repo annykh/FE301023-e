@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 30px;
+}
+
+.main{
+    border: 5px solid red;
+    width: 600px;
+    margin: 0 auto;
+    height: 1000px;
+    /* position: relative; */
+}
+
+.main div{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.block1{
+    background-color: aqua;
+}
+
+.block2{
+    background-color: lightcoral;
+    /* position: relative; */
+    /* left: 30px; */
+    /* right: ; */
+    /* top: 50px; */
+    /* bottom: ; */
+    /* z-index: 0; */
+
+    /* position: absolute; */
+    /* top: 20px;
+    left: 50px; */
+    /* top: 70px; */
+    /* left: 0; */
+    /* width: 100%; */
+
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
+    /* width: 20%; */
+    /* bottom: 0; */
+    /* right: 0; */
+
+    position: sticky;
+    /* static + fixed */
+    top: 0;
+}
+
+.block3{
+    background-color: lightpink;
+    /* position: relative; */
+    /* z-index: 1; */
+    position: sticky;
+    top: 0;
+}
