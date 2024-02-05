@@ -1,0 +1,20 @@
+.color1{
+    background-color: aqua;
+}
+
+.color2{
+    background-color: blue;
+}
+
+.color3{
+    background-color: rebeccapurple;
+}
+
+.sizes{
+    width: 200px;
+    height: 300px;
+}
+
+.border{
+    border: 5px solid blue;
+}
